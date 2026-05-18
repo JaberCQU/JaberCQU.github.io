@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /.git/
+
+# Allow all bots
+Crawl-delay: 0
+
+# Sitemap location
+Sitemap: https://yourusername.github.io/sitemap.xml
+
+# Specific bot rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
